@@ -1,0 +1,40 @@
+{
+    "files.exclude": {
+        "dist": false
+    },
+    "search.exclude": {
+        "out": true,
+        "dist": true,
+        "node_modules": true,
+        "public": true
+    },
+    "eslint.run": "onSave",
+    "eslint.runtime": "",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "always",
+        "source.organizeImports": "always",
+        "source.removeUnusedImports": "always"
+    },
+    "eslint.workingDirectories": ["./"],
+    "eslint.options": {},
+    "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "files.eol": "\n",
+    "files.autoSave": "onFocusChange",
+    "editor.tabSize": 2,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "css.validate": true,
+    "scss.validate": true,
+    "tailwindCSS.includeLanguages": {
+        "typescriptreact": "javascript"
+    },
+    "cSpell.ignorePaths": ["package.json", "settings.json", "extensions.json"]
+}

@@ -1,0 +1,20 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "dsznajder.es7-react-js-snippets",
+        "streetsidesoftware.code-spell-checker",
+        "ms-playwright.playwright",
+        "naumovs.color-highlight",
+        "csstools.postcss",
+        "bradlc.vscode-tailwindcss",
+        "ms-kubernetes-tools.vscode-kubernetes-tools",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode-remote.remote-containers",
+        "xabikos.JavaScriptSnippets",
+        "firsttris.vscode-jest-runner",
+        "GraphQL.vscode-graphql",
+        "formulahendry.auto-rename-tag",
+        "Orta.vscode-jest"
+    ]
+}

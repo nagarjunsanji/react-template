@@ -1,0 +1,51 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Terminal 1 - Set Node Env & start app",
+            "type": "shell",
+            "command": "nvm use 20",
+            "args": ["&&", "yarn", "start:dev"],
+            "group": "build",
+            "problemMatcher": [],
+            "runOptions": {
+                "runOn": "folderOpen" // Runs the task when the folder/workspace is opened
+            },
+            "options": {
+                "shell": {
+                    "executable": "cmd.exe",
+                    "args": ["/c"]
+                }
+            }
+        },
+        {
+            "label": "Run ESLint",
+            "type": "shell",
+            "command": "yarn lint",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "problemMatcher": ["$eslint-stylish"],
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "echo": true,
+                "focus": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Clean and Install Dependencies",
+            "type": "shell",
+            "command": "yarn install",
+            "group": "build",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            }
+        }
+    ]
+}
